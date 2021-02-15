@@ -12,11 +12,11 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from datetime import date
 
+model_dir = '/home/samuel/Desktop/Classes/CSC_300/puck_visualization_system/models/'
 model_name = 'puck_visualization_model_' + date.today().strftime('%b_%d_%Y') + '.h5'
 
 tf.get_logger().setLevel('ERROR')
-new_model = load_model(
-    sys.argv[1] + '/' + model_name)
+new_model = load_model(model_dir + model_name)
 
 category_names = ['Empty', 'Straight', 'Tilted']
 IMG_HEIGHT = 150
