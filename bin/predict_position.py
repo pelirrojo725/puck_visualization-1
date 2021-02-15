@@ -22,7 +22,6 @@ category_names = ['Empty', 'Straight', 'Tilted']
 IMG_HEIGHT = 150
 IMG_WIDTH = 150
 
-
 def prepare_image(img_name):
     input_image = cv2.imread(img_name)
     image_resize = cv2.resize(
