@@ -1,0 +1,10 @@
+Image puck_C_tiltedCaps_B5Rcaps_95pct_emptying.jpg
+/Users/samuel/Desktop/Projects/puck_visualization/bin/samuel_puck_visualization_20661
+
+Black pixels: 9694
+
+Image puck_C_tiltedCaps_B5Rcaps_95pct_emptying.jpg
+/Users/samuel/Desktop/Projects/puck_visualization/bin/samuel_puck_visualization_21100
+
+Black pixels: 9694
+
